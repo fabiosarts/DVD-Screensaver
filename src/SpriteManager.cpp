@@ -12,7 +12,11 @@ SpriteManager::SpriteManager()
 
 SpriteManager::~SpriteManager()
 {
-
+	while (!sprites.empty())
+	{
+		delete sprites.back();
+		sprites.pop_back();
+	}
 }
 
 void SpriteManager::Draw(const HDC& hDC)
