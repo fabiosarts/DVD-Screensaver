@@ -141,8 +141,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\src\screensaver.cpp" />
+    <ClCompile Include="..\src\Sprite.cpp" />
+    <ClCompile Include="..\src\SpriteManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MonitorRects.hpp" />
+    <ClInclude Include="..\src\Sprite.hpp" />
+    <ClInclude Include="..\src\SpriteManager.hpp" />
+    <ClInclude Include="..\src\Utils.hpp" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
